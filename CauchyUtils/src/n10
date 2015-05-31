@@ -1,0 +1,78 @@
+[1] TRUE
+
+
+
+testExact location=0.00, scale=1.00, n=10, it=1000000
+
+location_t=0, scale_t=0, ans={1.116/1.962/0.578s} &
+location_t=0, scale_t=1, ans={0.744/1.342/2.156s} &
+location_t=0, scale_t=2, ans={0.774/1.372/1.516s} &
+location_t=0, scale_t=3, ans={0.781/1.394/2.266s} &
+location_t=1, scale_t=0, ans={1222.158/12.702/0.578s} &
+location_t=1, scale_t=1, ans={1222.158/12.644/2.156s} &
+location_t=1, scale_t=2, ans={1222.158/12.900/1.515s} &
+location_t=1, scale_t=3, ans={1222.158/12.891/2.312s} &
+location_t=2, scale_t=0, ans={1.116/1.962/0.593s} &
+location_t=2, scale_t=1, ans={0.744/1.342/2.156s} &
+location_t=2, scale_t=2, ans={0.774/1.372/1.516s} &
+location_t=2, scale_t=3, ans={0.781/1.394/2.266s} &
+Nagy, ans={0.742/1.319/10.360s}
+MLE, ans={1.432/1.520/5.000s}
+
+
+
+testExact location=0.00, scale=5.00, n=10, it=1000000
+
+location_t=0, scale_t=0, ans={3.045/5.920/0.563s} &
+location_t=0, scale_t=1, ans={2.930/5.815/2.157s} &
+location_t=0, scale_t=2, ans={2.962/5.872/1.516s} &
+location_t=0, scale_t=3, ans={2.939/5.814/2.296s} &
+location_t=1, scale_t=0, ans={4256.512/64.074/0.578s} &
+location_t=1, scale_t=1, ans={4256.512/64.061/2.141s} &
+location_t=1, scale_t=2, ans={4256.512/64.115/1.532s} &
+location_t=1, scale_t=3, ans={4256.512/64.113/2.359s} &
+location_t=2, scale_t=0, ans={3.045/5.920/0.578s} &
+location_t=2, scale_t=1, ans={2.930/5.815/2.157s} &
+location_t=2, scale_t=2, ans={2.962/5.872/1.516s} &
+location_t=2, scale_t=3, ans={2.939/5.814/2.297s} &
+Nagy, ans={2.719/5.366/10.609s}
+MLE, ans={2.769/5.463/4.987s}
+
+
+
+testExact location=3.00, scale=1.00, n=10, it=1000000
+
+location_t=0, scale_t=0, ans={1.115/1.965/0.593s} &
+location_t=0, scale_t=1, ans={1.306/1.777/2.141s} &
+location_t=0, scale_t=2, ans={0.774/1.374/1.531s} &
+location_t=0, scale_t=3, ans={0.781/1.396/2.281s} &
+location_t=1, scale_t=0, ans={640.217/12.761/0.578s} &
+location_t=1, scale_t=1, ans={640.217/12.765/2.156s} &
+location_t=1, scale_t=2, ans={640.217/12.967/1.516s} &
+location_t=1, scale_t=3, ans={640.217/12.957/2.328s} &
+location_t=2, scale_t=0, ans={1.115/1.965/0.593s} &
+location_t=2, scale_t=1, ans={1.306/1.777/2.141s} &
+location_t=2, scale_t=2, ans={0.774/1.374/1.532s} &
+location_t=2, scale_t=3, ans={0.781/1.396/2.281s} &
+Nagy, ans={0.743/1.321/10.500s}
+MLE, ans={1.426/1.520/4.985s}
+
+
+
+testExact location=3.00, scale=5.00, n=10, it=1000000
+
+location_t=0, scale_t=0, ans={3.053/5.917/0.578s} &
+location_t=0, scale_t=1, ans={2.935/5.820/2.140s} &
+location_t=0, scale_t=2, ans={2.970/5.869/1.531s} &
+location_t=0, scale_t=3, ans={2.947/5.814/2.313s} &
+location_t=1, scale_t=0, ans={12894.594/64.185/0.578s} &
+location_t=1, scale_t=1, ans={12894.594/64.174/2.156s} &
+location_t=1, scale_t=2, ans={12894.594/64.226/1.500s} &
+location_t=1, scale_t=3, ans={12894.594/64.226/2.360s} &
+location_t=2, scale_t=0, ans={3.053/5.917/0.578s} &
+location_t=2, scale_t=1, ans={2.935/5.820/2.172s} &
+location_t=2, scale_t=2, ans={2.970/5.869/1.531s} &
+location_t=2, scale_t=3, ans={2.947/5.814/2.297s} &
+Nagy, ans={2.720/5.365/10.531s}
+MLE, ans={2.771/5.466/5.032s}
+

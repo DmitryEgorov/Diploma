@@ -1,0 +1,2 @@
+useDynLib(CauchyUtils)
+export(testExact,testBayes)
